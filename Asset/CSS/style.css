@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../Fonts/Raleway/Raleway-Regular.woff);
+    src: url(../Fonts/Raleway/static/Raleway-Regular.ttf)
+}
+
+.pages{
+    width: 1160px;
+    margin: auto;
+    font-size: 100%;
+}
+
+.nomphoto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #782221;
+    color: aliceblue;
+    font-family: "Raleway";
+    height: 320px;
+    line-height: 2em;
+}
+
+.infoperso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2c1d27;
+    color: aliceblue;
+    font-family: "Raleway";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Apropos{
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    width: 260px;
+    color: aliceblue;
+    font-family: "Raleway";
+    text-indent: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 280px;
+    word-break: break-all;
+
+}
+
+.Langue{
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    width: 260px;
+    color: aliceblue;
+    font-family: "Raleway";
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 140px;
+
+}
+
+.Interet{
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    width: 260px;
+    color: aliceblue;
+    font-family: "Raleway";
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 900px;
+}
