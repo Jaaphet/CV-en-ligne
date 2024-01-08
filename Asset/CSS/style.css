@@ -73,3 +73,101 @@
     padding-right: 20px;
     height: 900px;
 }
+
+.Experiences{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: -1315px;
+    font-family: "Raleway";
+}
+
+.Diplomes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: 25px;
+    font-family: "Raleway";
+}
+
+.Competences{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: "Raleway";
+}
+
+.logo{
+    background-color: #782221;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    margin-top: -10px;
+}
+
+.photo img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px white;
+    cursor: zoom-in;
+    margin-top: 17px;
+    
+}
+
+.basdepages{
+    background-color: #782221;
+    margin-top: -20px;
+    font-family: "Raleway";
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Lato";
+    font-size: 170%;
+    background-color: #dbc2a4 ;
+    color: black;
+    margin-left: -20px;
+    text-indent: 35px;
+}
+
+h2{
+    font-family: "Lato";
+    font-size: 170%;
+    background-color: #dbc2a4 ;
+    width: 800px;
+    color: black;
+    margin-left: -20px;
+    text-indent: 20px;
+    
+}
+
+h2:hover{
+    color: #782221;
+}
+
+.picture:hover{
+    opacity: 70%;
+}
+
+.picture {
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
