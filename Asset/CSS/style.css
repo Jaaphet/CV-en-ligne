@@ -6,7 +6,7 @@
     src: url(../Fonts/Raleway/static/Raleway-Regular.ttf)
 }
 
-.pages{
+body{
     width: 1160px;
     margin: auto;
     font-size: 100%;
